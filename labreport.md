@@ -2,11 +2,8 @@
 
 _written by Dave Vo_ | _4/8/22, SP22 (Week 2)_
 
-#
-
 Acclimating yourself to the server-client work environment can open up the collaborative coding space, making project development more efficient from a holistic perspective. Here's how to get the basics down.
 
-#
 ## Setting Up Visual Studio Code
 
 Although the standard terminal application that comes with your computer can suffice, having a proper Integrated Development Environment (IDE) will come in handy for coding and convenience purposes. 
@@ -19,7 +16,6 @@ After you successfully install VSCode, you should see something like this when y
 
 ![](1.5.%20VSCode%20Startup.png)
 
-#
 ## Remotely Accessing a Server
 
 To login to the remote server, type the following command:
@@ -34,7 +30,6 @@ For the first time logging in, you will be met with a few authentication formali
 
 ![](2.5.%20Successful%20Login.png)
 
-#
 ## Executing Commands
 
 For basic server navigation, you can use commands like `$ ls` and `$ cd` to see and move between directories.
@@ -49,7 +44,6 @@ To log off of the server, use the `$ exit` command.
 
 ![](3.51.%20Navigation%20Again.png)
 
-#
 ## Moving Files with `scp`
 
 To copy files from your computer to the server, use the following command:
@@ -60,7 +54,6 @@ To copy files from your computer to the server, use the following command:
 
 Depending on where you want the copy to go, you can customize the directory that is stated after the `:` in the command.
 
-#
 ## SSH Keys
 
 We can bypass inputting our password by setting up an SSH Key in the server, which elimates the need to tediously retype our password whenever we want to use `ssh` or `scp`. 
